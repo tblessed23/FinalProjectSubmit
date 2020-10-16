@@ -1,5 +1,6 @@
 package com.udacity.gradle.builditbigger.backend;
 
+import com.example.android.cornyjokes.CornyJokes;
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
@@ -21,10 +22,24 @@ public class MyEndpoint {
     /** A simple endpoint method that takes a name and says Hi back */
     @ApiMethod(name = "sayHi")
     public MyBean sayHi(@Named("name") String name) {
+        CornyJokes corn = new CornyJokes();
+        String joke = corn.getCornyJokes();
+
         MyBean response = new MyBean();
-        response.setData("Hi, " + name);
+        response.setData(joke + name);
 
         return response;
     }
+
+    @ApiMethod(name = "getCloudJoke")
+    public EndpointJokes getCloudJoke() {
+        CornyJokes corn = new CornyJokes();
+        String jokeagainn = corn.getCornyJokes();
+
+        EndpointJokes joke = new EndpointJokes();
+        joke.setEndpointJoke(jokeagainn);
+        return joke;
+    }
+
 
 }

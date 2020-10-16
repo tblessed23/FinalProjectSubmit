@@ -1,2 +1,3 @@
+include ':cornyjokesdisplay'
 include ':cornyJokes'
 include ':app', ':backend'
