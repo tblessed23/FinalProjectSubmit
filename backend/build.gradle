@@ -43,4 +43,11 @@ appengine {  // App Engine tasks configuration
         projectId = 'GCLOUD_CONFIG'
         version = '1'
     }
+    run {
+
+        host = "0.0.0.0"
+
+        port = 8080
+
+    }
 }
