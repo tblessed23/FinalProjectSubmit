@@ -38,11 +38,12 @@ dependencies {
 
 }
 
-appengine {  // App Engine tasks configuration
+appengine {  // App Engine tasks configuration, this deploy goes with updated 2.0 app engine gradle plugin
     deploy {   // deploy configuration
         projectId = 'GCLOUD_CONFIG'
         version = '1'
     }
+
     run {
 
         host = "0.0.0.0"
