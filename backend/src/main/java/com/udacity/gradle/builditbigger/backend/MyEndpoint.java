@@ -19,18 +19,7 @@ import javax.inject.Named;
 )
 public class MyEndpoint {
 
-    /** A simple endpoint method that takes a name and says Hi back */
-    @ApiMethod(name = "sayHi")
-    public MyBean sayHi(@Named("name") String name) {
-        CornyJokes corn = new CornyJokes();
-        String joke = corn.getCornyJokes();
-
-        MyBean response = new MyBean();
-        response.setData(joke + name);
-
-        return response;
-    }
-
+//A simple endpoint method
     @ApiMethod(name = "getCloudJoke")
     public EndpointJokes getCloudJoke() {
         CornyJokes corn = new CornyJokes();

@@ -17,8 +17,8 @@ import static org.hamcrest.Matchers.not;
 @RunWith(AndroidJUnit4ClassRunner.class)
 public class MainActivityInstrumentedTest {
 
-        @Rule
-        public ActivityTestRule<MainActivity> mActivityTestRule =
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule =
                 new ActivityTestRule<>(MainActivity.class);
 
         @Test
@@ -29,9 +29,6 @@ public class MainActivityInstrumentedTest {
 
             // passes if the textView does not match the empty string
             onView(withId(R.id.joke_textview)).check(matches(not(withText(""))));
-
         }
-
-
-    }
+}
 

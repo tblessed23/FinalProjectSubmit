@@ -10,68 +10,68 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="paidRelease" />
-        <option name="ASSEMBLE_TASK_NAME" value="assemblePaidRelease" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compilePaidReleaseSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="freeRelease" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleFreeRelease" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileFreeReleaseSources" />
         <afterSyncTasks>
-          <task>generatePaidReleaseSources</task>
+          <task>generateFreeReleaseSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/paid/res;file://$MODULE_DIR$/../../../app/src/release/res;file://$MODULE_DIR$/../../../app/src/paidRelease/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/paid/release" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/test/res;file://$MODULE_DIR$/../../../app/src/androidTestPaid/res;file://$MODULE_DIR$/../../../app/src/testPaid/res;file://$MODULE_DIR$/../../../app/src/testRelease/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/free/res;file://$MODULE_DIR$/../../../app/src/release/res;file://$MODULE_DIR$/../../../app/src/freeRelease/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/free/release" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/test/res;file://$MODULE_DIR$/../../../app/src/androidTestFree/res;file://$MODULE_DIR$/../../../app/src/testFree/res;file://$MODULE_DIR$/../../../app/src/testRelease/res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/paidRelease/classes" />
-    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/paidReleaseUnitTest/classes" />
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/freeRelease/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/freeReleaseUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/endpoints" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/paidRelease/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/paidRelease/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/paid/release" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/paidRelease/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/paid/release" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paidRelease/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/paidReleaseUnitTest/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaidRelease/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/paid/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestPaid/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testPaid/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/freeRelease/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/freeRelease/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/free/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/freeRelease/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/free/release" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/freeRelease/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/freeReleaseUnitTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFreeRelease/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/free/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTestFree/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/testFree/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/release/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/release/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/release/assets" type="java-resource" />
@@ -113,16 +113,16 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client:1.23.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-android:1.23.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.oauth-client:google-oauth-client:1.23.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-jackson2:1.23.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client:1.23.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.oauth-client:google-oauth-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-android:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-jackson2:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.1@jar" level="project" />
@@ -130,13 +130,12 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.1.3@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava-jdk5:17.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads:11.8.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite:11.8.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gass:11.8.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:11.8.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
@@ -166,6 +165,7 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar" level="project" />
     <orderEntry type="module" module-name="cornyjokesdisplay" />
     <orderEntry type="module" module-name="cornyJokes" />
   </component>
