@@ -76,6 +76,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation 'org.testng:testng:6.9.6'
+    androidTestImplementation 'junit:junit:4.13'
     endpointsServer project(path: ':backend', configuration: 'endpoints')
     implementation 'androidx.appcompat:appcompat:1.2.0'
     freeImplementation 'com.google.android.gms:play-services-ads:11.8.0'
@@ -90,25 +92,15 @@ dependencies {
     })
 
     // Required for local unit tests (JUnit 4 framework)
-    testImplementation 'junit:junit:4.12'
-
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'junit:junit:4.13'
     // Required for instrumented tests
-    androidTestImplementation 'com.android.support:support-annotations:28.0.0'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'androidx.annotation:annotation:1.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
 
     androidTestImplementation 'androidx.test:runner:1.3.0'
     androidTestImplementation 'androidx.test:rules:1.3.0'
 
-    //For Testing
-    androidTestImplementation 'androidx.annotation:annotation:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.3.0'
-    implementation 'androidx.test.espresso:espresso-idling-resource:3.3.0'
-
     implementation project(":cornyJokes")
     implementation project(":cornyjokesdisplay")
-
-
-
-
 }

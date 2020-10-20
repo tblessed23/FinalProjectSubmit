@@ -1,13 +1,15 @@
 package com.example.android.cornyjokesdisplay;
 
 import android.content.Context;
-import androidx.test.platform.app.InstrumentationRegistry;
+
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  * Instrumented test, which will execute on an Android device.
